@@ -21,10 +21,6 @@ public class RunMappings {
     public void  deployMappingsOnWiremock()
     {
         wireMockServer = new WireMockServer(new WireMockConfiguration().port(port).notifier(new ConsoleNotifier(true)));
-                /*new WireMockConfiguration().
-                port(port).
-                mappingSource(new JsonFileMappingsSource(filePath)));
-        //wireMockServer*/
         wireMockServer.start();
     System.out.println("WireMock Server up and running with below \nport="+wireMockServer.port()+
             "\ntotal mappings="+wireMockServer.getStubMappings().size());
