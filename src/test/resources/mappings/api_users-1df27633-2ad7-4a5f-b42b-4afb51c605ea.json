@@ -1,0 +1,33 @@
+{
+  "id" : "1df27633-2ad7-4a5f-b42b-4afb51c605ea",
+  "name" : "api_users",
+  "request" : {
+    "url" : "/api/users?page=2",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"page\":2,\"per_page\":6,\"total\":12,\"total_pages\":2,\"data\":[{\"id\":7,\"email\":\"michael.lawson@reqres.in\",\"first_name\":\"Michael\",\"last_name\":\"Lawson\",\"avatar\":\"https://reqres.in/img/faces/7-image.jpg\"},{\"id\":8,\"email\":\"lindsay.ferguson@reqres.in\",\"first_name\":\"Lindsay\",\"last_name\":\"Ferguson\",\"avatar\":\"https://reqres.in/img/faces/8-image.jpg\"},{\"id\":9,\"email\":\"tobias.funke@reqres.in\",\"first_name\":\"Tobias\",\"last_name\":\"Funke\",\"avatar\":\"https://reqres.in/img/faces/9-image.jpg\"},{\"id\":10,\"email\":\"byron.fields@reqres.in\",\"first_name\":\"Byron\",\"last_name\":\"Fields\",\"avatar\":\"https://reqres.in/img/faces/10-image.jpg\"},{\"id\":11,\"email\":\"george.edwards@reqres.in\",\"first_name\":\"George\",\"last_name\":\"Edwards\",\"avatar\":\"https://reqres.in/img/faces/11-image.jpg\"},{\"id\":12,\"email\":\"rachel.howell@reqres.in\",\"first_name\":\"Rachel\",\"last_name\":\"Howell\",\"avatar\":\"https://reqres.in/img/faces/12-image.jpg\"}],\"support\":{\"url\":\"https://reqres.in/#support-heading\",\"text\":\"To keep ReqRes free, contributions towards server costs are appreciated!\"}}",
+    "headers" : {
+      "Date" : "Sun, 06 Jun 2021 10:41:41 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "x-powered-by" : "Express",
+      "etag" : "W/\"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw\"",
+      "via" : "1.1 vegur",
+      "Cache-Control" : "max-age=14400",
+      "CF-Cache-Status" : "HIT",
+      "Age" : "5049",
+      "cf-request-id" : "0a8283158600000efc31b5d000000001",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Report-To" : "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v2?s=1xv6L40UAgUKK0JGx0CLyRhj%2BPrN0CkUSY7rczxS2d9iCiYE56fsznTpieQnoDzS8ahB%2BQAtDsu1Cc5rgRyBmiTWIYT3XZKeOrxjfOaNWp40NPi%2FlSpr\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+      "NEL" : "{\"report_to\":\"cf-nel\",\"max_age\":604800}",
+      "Vary" : "Accept-Encoding",
+      "Server" : "cloudflare",
+      "CF-RAY" : "65b1079c09990efc-BOM",
+      "alt-svc" : "h3-27=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3=\":443\"; ma=86400"
+    }
+  },
+  "uuid" : "1df27633-2ad7-4a5f-b42b-4afb51c605ea",
+  "persistent" : true,
+  "insertionIndex" : 1
+}
