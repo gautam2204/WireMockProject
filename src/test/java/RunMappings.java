@@ -9,7 +9,7 @@ import com.github.tomakehurst.wiremock.standalone.MappingsSource;
 
 public class RunMappings {
     WireMockServer wireMockServer;
-    private int port;
+    private final int port;
     String filePath;
 
     public RunMappings(int port,String filePath) {

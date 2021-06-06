@@ -1,0 +1,20 @@
+{
+  "id": "c7e3126f-5047-4fe3-ab34-89305c092ada",
+  "request": {
+    "urlPathPattern": "/data/user",
+    "method": "POST",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{\n  \"id\": 11,\n  \"name\": \"gautam\",\n  \"year\": 2021,\n  \"color\": \"#E2583F\",\n  \"pantone_value\": \"22041991\"\n}"
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "responseBodyforAddData.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "uuid": "c7e3126f-5047-4fe3-ab34-89305c092ada"
+}
